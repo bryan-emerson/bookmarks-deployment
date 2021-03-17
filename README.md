@@ -1,6 +1,6 @@
 
 # Deployment for Node-Mongo-Express: Heroku & Atlas
-
+- Adapted From [e-book-lab](https://git.generalassemb.ly/dc-wdi-node-express/heroku-atlas-deployment).
 ## Learning Objectives
 
 - Define deployment
