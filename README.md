@@ -149,7 +149,7 @@ database that our app can connect to. Next, we'll configure our
 Node-Express-Mongoose applications to connect to this new cloud-hosted database
 and finally, deploy our application to Heroku.
 
-## You Do: Deploy Book-e JSON
+## You Do: Deploy Bookmarkr
 
 Today, we will be deploying the 'main' branch of our Bookmarkr API excercise.
 **Fork and Clone** this repo:
@@ -157,9 +157,10 @@ Today, we will be deploying the 'main' branch of our Bookmarkr API excercise.
 
 #### Note About Branches:
 
-- When you clone a repo, it will clone down the master branch. However many repos contain branches. 
-  `git checkout solution` would switch the current git branch to the **_solution_** branch. This can be useful for testing 
-  out development features. 
+- When you clone a repo, it will clone down the master branch of a given repository. 
+However many repos contain branches. Running the command on a cloned branch`git checkout solution` 
+would switch the current git branch to the **_solution_** branch. This can be useful for 
+testing out development features. 
   
 ### Heroku
 
@@ -218,7 +219,8 @@ before executing each step.
 
    - NOTE: `heroku create` prepares Heroku to receive your code. Heroku will
      randomly create an app name for you if you don't specify one. You may need
-     to login before you can create an app. To do this, run the command `heroku login`. This will prompt you to log in through your browser.
+     to login before you can create an app. To do this, run the command `heroku login`. 
+     This will prompt you to log in through your browser.
 
    - NOTE: If you choose to name your application, you will need to use a unique
      name (something someone else has not used before). If the name is taken,
@@ -244,10 +246,10 @@ before executing each step.
 
 7. When your cluster is finished, click the "Connect" button.
 
-8. Add `0.0.0.0/0` for the whitelisted IP address. This represents all of the IP addresses on your local machine. If you just add the current
-   IP address you can click on "Network Access" in the sidebar, then the "Add IP
-   Address" button in the top right, and finally "Allow Access from Anywhere"
-   and click Confirm.
+8. Add `0.0.0.0/0` for the whitelisted IP address. This represents all of the IP 
+   addresses on your local machine. If you just add the current IP address you 
+   can click on "Network Access" in the sidebar, then the "Add IP Address" button 
+   in the top right, and finally "Allow Access from Anywhere" and click Confirm.
 
 ##### NOTE:
 
